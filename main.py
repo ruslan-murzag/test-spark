@@ -5,7 +5,6 @@ import requests
 import urllib.parse
 import geohash2
 
-API_KEY = "0f1c9eb4a9054e50b691f4a55391ac68"
 spark = SparkSession.builder \
     .appName("SparkPracticeFull") \
     .master("local[*]") \
